@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+body{
+    margin-top: 8rem;
+}
+
+li {
+    list-style: none;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+/*************HEADER****************/
+
+header{
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    padding: 1rem 3rem;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+}
+
+header figure {
+    height: 100%;
+    margin-right: 2rem;
+}
+
+header figure img {
+    height: 100%;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.4rem;
+}
+
+header .list{
+    width: 30rem;
+}
+
+header .list a{
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: rgb(243, 225, 24);
+    transition: .3s;
+}
+
+header .list a:hover{
+    color: rgb(234, 68, 26);
+    transition: .5s;
+}
+
+header a, header li{
+    height: 100%;
+}
+
+/****************MAIN*************/
+
+#main_view{
+    height: calc(100vh - 8rem);
+    background-image: url(https://www.worldofspectrum.org/scr2gif?size=5&file=pub/sinclair/screens/load/m/scr/MortalKombat.scr);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#main_view h1{
+    text-align: center;
+    color: #ddd;
+    font-size: 5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 1.5rem 0;
+    font-style: italic;
+}
+
+.main{
+    height: calc(100vh - 8rem);
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+/****************FOOTER******************/
+
+footer{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    justify-content: end;
+    padding: 0 3rem;
+}
+
+footer .list{
+    font-size: 1.2rem;
+    width: 50rem;
+    color: aliceblue;
+}
