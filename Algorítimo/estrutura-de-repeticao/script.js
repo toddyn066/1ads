@@ -7,11 +7,11 @@ function calcular(){
     
     if(num>0){
         result.innerHTML = ''
-        for (let i = 0; i<=num; i++) {
+        for (let i = 0; i<=num; i++ ) {
             if(i%2 == 0){
-                result.innerHTML += `<div class="p-5 alert alert-success col-auto">${i}</div>`
+                result.innerHTML += `<div class="p-3 alert alert-success col-auto">${i}</div>`
             }else{
-                result.innerHTML += `<div class="p-5 alert alert-danger col-auto">${i}</div>`
+                result.innerHTML += `<div class="p-3 alert alert-danger col-auto">${i}</div>`
             }
         }
     } else{
