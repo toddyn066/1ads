@@ -1,0 +1,8 @@
+p{
+    text-align: justify;
+}
+
+.col-md-2.col-4 img{
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
